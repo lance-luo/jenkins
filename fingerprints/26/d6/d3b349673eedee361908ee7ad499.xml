@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2017-05-16 02:26:36.161 UTC</timestamp>
+  <original>
+    <name>hello_world</name>
+    <number>16</number>
+  </original>
+  <md5sum>26d6d3b349673eedee361908ee7ad499</md5sum>
+  <fileName>index.html</fileName>
+  <usages>
+    <entry>
+      <string>hello_world</string>
+      <ranges>16-18</ranges>
+    </entry>
+    <entry>
+      <string>Deploy to Staging</string>
+      <ranges>16-18</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

@@ -1,0 +1,1454 @@
+<list>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>my_app/com.mycompany.app:my-app</n>
+    <nb>5</nb>
+    <d>
+      <time>1495508450838</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>12052</du>
+    <nn>master</nn>
+    <un>SYSTEM</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>my_app</n>
+    <nb>5</nb>
+    <d>
+      <time>1495508447684</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>24297</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>Deploy to Staging</n>
+    <nb>33</nb>
+    <d>
+      <time>1495508050985</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>15</du>
+    <nn>master</nn>
+    <un>SYSTEM</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>python_project1</n>
+    <nb>33</nb>
+    <d>
+      <time>1495508040980</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>2463</du>
+    <nn>master</nn>
+    <un>SYSTEM</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>Deploy to Staging</n>
+    <nb>32</nb>
+    <d>
+      <time>1495505690837</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>433</du>
+    <nn>master</nn>
+    <un>SYSTEM</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>python_project1</n>
+    <nb>32</nb>
+    <d>
+      <time>1495505680351</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>1984</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>my_app/com.mycompany.app:my-app</n>
+    <nb>4</nb>
+    <d>
+      <time>1495430221815</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>12506</du>
+    <nn>master</nn>
+    <un>SYSTEM</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>my_app</n>
+    <nb>4</nb>
+    <d>
+      <time>1495430220588</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>20832</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>my_app/com.mycompany.app:my-app</n>
+    <nb>3</nb>
+    <d>
+      <time>1495428387664</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>11170</du>
+    <nn>master</nn>
+    <un>SYSTEM</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>my_app</n>
+    <nb>3</nb>
+    <d>
+      <time>1495428385102</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>20555</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>my_app/com.mycompany.app:my-app</n>
+    <nb>2</nb>
+    <d>
+      <time>1495426947009</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>97270</du>
+    <nn>master</nn>
+    <un>SYSTEM</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>my_app</n>
+    <nb>2</nb>
+    <d>
+      <time>1495426944302</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>122203</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>FAILURE</r>
+    <n>my_app</n>
+    <nb>1</nb>
+    <d>
+      <time>1495426281187</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>3027</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>Deploy to Staging</n>
+    <nb>31</nb>
+    <d>
+      <time>1495420015611</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>11</du>
+    <nn>master</nn>
+    <un>SYSTEM</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>python_project1</n>
+    <nb>31</nb>
+    <d>
+      <time>1495420000765</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>5814</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>UNSTABLE</r>
+    <n>python_project1</n>
+    <nb>30</nb>
+    <d>
+      <time>1495175612872</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>7102</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>UNSTABLE</r>
+    <n>python_project1</n>
+    <nb>29</nb>
+    <d>
+      <time>1495169783103</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>7191</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>UNSTABLE</r>
+    <n>python_project1</n>
+    <nb>28</nb>
+    <d>
+      <time>1495166564569</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>5085</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>UNSTABLE</r>
+    <n>python_project1</n>
+    <nb>27</nb>
+    <d>
+      <time>1495166557274</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>4031</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>UNSTABLE</r>
+    <n>python_project1</n>
+    <nb>26</nb>
+    <d>
+      <time>1495166194709</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>4724</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>UNSTABLE</r>
+    <n>python_project1</n>
+    <nb>25</nb>
+    <d>
+      <time>1495164738280</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>4225</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>UNSTABLE</r>
+    <n>python_project1</n>
+    <nb>24</nb>
+    <d>
+      <time>1495164658158</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>61939</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>UNSTABLE</r>
+    <n>python_project1</n>
+    <nb>23</nb>
+    <d>
+      <time>1495164616915</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>4498</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>UNSTABLE</r>
+    <n>python_project1</n>
+    <nb>22</nb>
+    <d>
+      <time>1495164436133</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>61475</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>UNSTABLE</r>
+    <n>python_project1</n>
+    <nb>21</nb>
+    <d>
+      <time>1495164399959</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>3899</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>UNSTABLE</r>
+    <n>python_project1</n>
+    <nb>20</nb>
+    <d>
+      <time>1495164319291</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>61838</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>UNSTABLE</r>
+    <n>python_project1</n>
+    <nb>19</nb>
+    <d>
+      <time>1495164243973</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>61516</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>UNSTABLE</r>
+    <n>python_project1</n>
+    <nb>18</nb>
+    <d>
+      <time>1495164184893</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>5777</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>UNSTABLE</r>
+    <n>python_project1</n>
+    <nb>17</nb>
+    <d>
+      <time>1495164100626</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>61500</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>UNSTABLE</r>
+    <n>python_project1</n>
+    <nb>16</nb>
+    <d>
+      <time>1495163101608</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>3361</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>Deploy to Prod</n>
+    <nb>8</nb>
+    <d>
+      <time>1495162502374</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>192</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>Deploy to Staging</n>
+    <nb>30</nb>
+    <d>
+      <time>1495162476249</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>17</du>
+    <nn>master</nn>
+    <un>SYSTEM</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>python_project1</n>
+    <nb>15</nb>
+    <d>
+      <time>1495162466248</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>2909</du>
+    <nn>master</nn>
+    <un>SYSTEM</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>Deploy to Prod</n>
+    <nb>7</nb>
+    <d>
+      <time>1495162085677</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>583</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>hello_world</n>
+    <nb>32</nb>
+    <d>
+      <time>1495161203030</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>2798</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>UNSTABLE</r>
+    <n>hello_world</n>
+    <nb>31</nb>
+    <d>
+      <time>1495161141449</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>2760</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>UNSTABLE</r>
+    <n>hello_world</n>
+    <nb>30</nb>
+    <d>
+      <time>1495159812818</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>2706</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>UNSTABLE</r>
+    <n>hello_world</n>
+    <nb>29</nb>
+    <d>
+      <time>1495159639967</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>2599</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>UNSTABLE</r>
+    <n>hello_world</n>
+    <nb>28</nb>
+    <d>
+      <time>1495159527708</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>2898</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>hello_world</n>
+    <nb>27</nb>
+    <d>
+      <time>1495159314039</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>2767</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>hello_world</n>
+    <nb>26</nb>
+    <d>
+      <time>1495159224498</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>2940</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>hello_world</n>
+    <nb>25</nb>
+    <d>
+      <time>1495158711239</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>3055</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>Deploy to Prod</n>
+    <nb>6</nb>
+    <d>
+      <time>1495091118674</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>15</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>Deploy to Staging</n>
+    <nb>29</nb>
+    <d>
+      <time>1495091086921</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>26</du>
+    <nn>master</nn>
+    <un>SYSTEM</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>python_project1</n>
+    <nb>14</nb>
+    <d>
+      <time>1495091076921</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>2419</du>
+    <nn>master</nn>
+    <un>SYSTEM</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>Deploy to Prod</n>
+    <nb>5</nb>
+    <d>
+      <time>1495090070505</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>23</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>FAILURE</r>
+    <n>Deploy to Prod</n>
+    <nb>4</nb>
+    <d>
+      <time>1495089953782</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>3</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>Deploy to Staging</n>
+    <nb>28</nb>
+    <d>
+      <time>1495089941859</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>13</du>
+    <nn>master</nn>
+    <un>SYSTEM</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>python_project1</n>
+    <nb>13</nb>
+    <d>
+      <time>1495089931967</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>1451</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>FAILURE</r>
+    <n>Deploy to Staging</n>
+    <nb>27</nb>
+    <d>
+      <time>1495089791849</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>16</du>
+    <nn>master</nn>
+    <un>SYSTEM</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>python_project1</n>
+    <nb>12</nb>
+    <d>
+      <time>1495089782111</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>1473</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>FAILURE</r>
+    <n>Deploy to Prod</n>
+    <nb>3</nb>
+    <d>
+      <time>1495089754969</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>2</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>Deploy to Staging</n>
+    <nb>26</nb>
+    <d>
+      <time>1495089541838</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>324</du>
+    <nn>master</nn>
+    <un>SYSTEM</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>python_project1</n>
+    <nb>11</nb>
+    <d>
+      <time>1495089531912</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>1419</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>FAILURE</r>
+    <n>Deploy to Staging</n>
+    <nb>25</nb>
+    <d>
+      <time>1495089456827</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>15</du>
+    <nn>master</nn>
+    <un>SYSTEM</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>python_project1</n>
+    <nb>10</nb>
+    <d>
+      <time>1495089448512</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>1351</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>python_project1</n>
+    <nb>9</nb>
+    <d>
+      <time>1495089103149</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>2485</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>python_project1</n>
+    <nb>8</nb>
+    <d>
+      <time>1495083809391</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>2392</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>python_project1</n>
+    <nb>7</nb>
+    <d>
+      <time>1495081975095</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>2291</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>python_project1</n>
+    <nb>6</nb>
+    <d>
+      <time>1495081606202</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>2405</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>FAILURE</r>
+    <n>python_project1</n>
+    <nb>5</nb>
+    <d>
+      <time>1495081253535</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>2129</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>python_project1</n>
+    <nb>4</nb>
+    <d>
+      <time>1495080374498</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>1399</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>UNSTABLE</r>
+    <n>python_project1</n>
+    <nb>3</nb>
+    <d>
+      <time>1495080316279</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>1475</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>UNSTABLE</r>
+    <n>python_project1</n>
+    <nb>2</nb>
+    <d>
+      <time>1495080100061</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>1495</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>python_project1</n>
+    <nb>1</nb>
+    <d>
+      <time>1495077715867</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>3733</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>Deploy to Prod</n>
+    <nb>2</nb>
+    <d>
+      <time>1495005900067</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>15</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>FAILURE</r>
+    <n>Deploy to Prod</n>
+    <nb>1</nb>
+    <d>
+      <time>1495005629237</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>2</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>Deploy to Staging</n>
+    <nb>24</nb>
+    <d>
+      <time>1495005533016</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>20</du>
+    <nn>master</nn>
+    <un>SYSTEM</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>hello_world</n>
+    <nb>24</nb>
+    <d>
+      <time>1495005523013</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>2729</du>
+    <nn>master</nn>
+    <un>SYSTEM</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>Deploy to Staging</n>
+    <nb>23</nb>
+    <d>
+      <time>1495002277895</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>10</du>
+    <nn>master</nn>
+    <un>SYSTEM</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>hello_world</n>
+    <nb>23</nb>
+    <d>
+      <time>1495002267890</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>2598</du>
+    <nn>master</nn>
+    <un>SYSTEM</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>Deploy to Staging</n>
+    <nb>22</nb>
+    <d>
+      <time>1495000547822</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>12</du>
+    <nn>master</nn>
+    <un>SYSTEM</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>hello_world</n>
+    <nb>22</nb>
+    <d>
+      <time>1495000537821</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>2766</du>
+    <nn>master</nn>
+    <un>SYSTEM</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>Deploy to Staging</n>
+    <nb>21</nb>
+    <d>
+      <time>1494994607547</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>20</du>
+    <nn>master</nn>
+    <un>SYSTEM</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>hello_world</n>
+    <nb>21</nb>
+    <d>
+      <time>1494994597539</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>2653</du>
+    <nn>master</nn>
+    <un>SYSTEM</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>Deploy to Staging</n>
+    <nb>20</nb>
+    <d>
+      <time>1494942340577</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>33</du>
+    <nn>master</nn>
+    <un>SYSTEM</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>hello_world</n>
+    <nb>20</nb>
+    <d>
+      <time>1494942330573</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>2678</du>
+    <nn>master</nn>
+    <un>SYSTEM</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>Deploy to Staging</n>
+    <nb>19</nb>
+    <d>
+      <time>1494912164423</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>390</du>
+    <nn>master</nn>
+    <un>SYSTEM</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>hello_world</n>
+    <nb>19</nb>
+    <d>
+      <time>1494912154429</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>3063</du>
+    <nn>master</nn>
+    <un>SYSTEM</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>Deploy to Staging</n>
+    <nb>18</nb>
+    <d>
+      <time>1494902141197</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>17</du>
+    <nn>master</nn>
+    <un>SYSTEM</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>hello_world</n>
+    <nb>18</nb>
+    <d>
+      <time>1494902133226</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>2639</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>Deploy to Staging</n>
+    <nb>17</nb>
+    <d>
+      <time>1494902116191</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>18</du>
+    <nn>master</nn>
+    <un>SYSTEM</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>hello_world</n>
+    <nb>17</nb>
+    <d>
+      <time>1494902104053</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>2588</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>Deploy to Staging</n>
+    <nb>16</nb>
+    <d>
+      <time>1494901596157</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>19</du>
+    <nn>master</nn>
+    <un>SYSTEM</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>hello_world</n>
+    <nb>16</nb>
+    <d>
+      <time>1494901586155</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>2823</du>
+    <nn>master</nn>
+    <un>SYSTEM</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>Deploy to Staging</n>
+    <nb>15</nb>
+    <d>
+      <time>1494901501138</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>15</du>
+    <nn>master</nn>
+    <un>SYSTEM</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>hello_world</n>
+    <nb>15</nb>
+    <d>
+      <time>1494901491135</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>2717</du>
+    <nn>master</nn>
+    <un>SYSTEM</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>Deploy to Staging</n>
+    <nb>14</nb>
+    <d>
+      <time>1494901406125</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>362</du>
+    <nn>master</nn>
+    <un>SYSTEM</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>hello_world</n>
+    <nb>14</nb>
+    <d>
+      <time>1494901396117</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>2872</du>
+    <nn>master</nn>
+    <un>SYSTEM</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>Deploy to Staging</n>
+    <nb>13</nb>
+    <d>
+      <time>1494900414491</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>415</du>
+    <nn>master</nn>
+    <un>SYSTEM</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>hello_world</n>
+    <nb>13</nb>
+    <d>
+      <time>1494900404481</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>2919</du>
+    <nn>master</nn>
+    <un>SYSTEM</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>Deploy to Staging</n>
+    <nb>12</nb>
+    <d>
+      <time>1494892360116</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>12</du>
+    <nn>master</nn>
+    <un>SYSTEM</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>hello_world</n>
+    <nb>12</nb>
+    <d>
+      <time>1494892350115</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>2665</du>
+    <nn>master</nn>
+    <un>SYSTEM</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>Deploy to Staging</n>
+    <nb>11</nb>
+    <d>
+      <time>1494856023816</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>17</du>
+    <nn>master</nn>
+    <un>SYSTEM</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>hello_world</n>
+    <nb>11</nb>
+    <d>
+      <time>1494856013815</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>2748</du>
+    <nn>master</nn>
+    <un>SYSTEM</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>Deploy to Staging</n>
+    <nb>10</nb>
+    <d>
+      <time>1494855949244</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>16</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>FAILURE</r>
+    <n>Deploy to Staging</n>
+    <nb>9</nb>
+    <d>
+      <time>1494855776814</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>3</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>Deploy to Staging</n>
+    <nb>8</nb>
+    <d>
+      <time>1494855693803</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>16</du>
+    <nn>master</nn>
+    <un>SYSTEM</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>hello_world</n>
+    <nb>10</nb>
+    <d>
+      <time>1494855683801</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>2835</du>
+    <nn>master</nn>
+    <un>SYSTEM</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>Deploy to Staging</n>
+    <nb>7</nb>
+    <d>
+      <time>1494831542889</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>16</du>
+    <nn>master</nn>
+    <un>SYSTEM</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>hello_world</n>
+    <nb>9</nb>
+    <d>
+      <time>1494831532881</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>2553</du>
+    <nn>master</nn>
+    <un>SYSTEM</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>Deploy to Staging</n>
+    <nb>6</nb>
+    <d>
+      <time>1494831222865</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>27</du>
+    <nn>master</nn>
+    <un>SYSTEM</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>hello_world</n>
+    <nb>8</nb>
+    <d>
+      <time>1494831214367</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>2608</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>hello_world</n>
+    <nb>7</nb>
+    <d>
+      <time>1494831088167</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>2851</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>Deploy to Staging</n>
+    <nb>5</nb>
+    <d>
+      <time>1494829207248</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>318</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>FAILURE</r>
+    <n>Deploy to Staging</n>
+    <nb>4</nb>
+    <d>
+      <time>1494829155455</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>12</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>FAILURE</r>
+    <n>Deploy to Staging</n>
+    <nb>3</nb>
+    <d>
+      <time>1494829144564</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>13</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>FAILURE</r>
+    <n>Deploy to Staging</n>
+    <nb>2</nb>
+    <d>
+      <time>1494829065108</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>4</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>hello_world</n>
+    <nb>6</nb>
+    <d>
+      <time>1494829042055</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>2732</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>FAILURE</r>
+    <n>Deploy to Staging</n>
+    <nb>1</nb>
+    <d>
+      <time>1494828756610</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>14</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>hello_world</n>
+    <nb>5</nb>
+    <d>
+      <time>1494828386195</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>2710</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>hello_world</n>
+    <nb>4</nb>
+    <d>
+      <time>1494825677626</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>1835</du>
+    <nn>master</nn>
+    <un>SYSTEM</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>hello_world</n>
+    <nb>3</nb>
+    <d>
+      <time>1494825542618</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>1762</du>
+    <nn>master</nn>
+    <un>SYSTEM</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>hello_world</n>
+    <nb>2</nb>
+    <d>
+      <time>1494823478164</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>1927</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>hello_world</n>
+    <nb>1</nb>
+    <d>
+      <time>1494805635115</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>2591</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>UNSTABLE</r>
+    <n>python_project1</n>
+    <nb>34</nb>
+    <d>
+      <time>1495512759588</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>7505</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>UNSTABLE</r>
+    <n>python_project1</n>
+    <nb>35</nb>
+    <d>
+      <time>1495512870219</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>5989</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>python_project1</n>
+    <nb>36</nb>
+    <d>
+      <time>1495513105339</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>5840</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>Deploy to Staging</n>
+    <nb>34</nb>
+    <d>
+      <time>1495513120071</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>566</du>
+    <nn>master</nn>
+    <un>SYSTEM</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>UNSTABLE</r>
+    <n>Deploy to Prod</n>
+    <nb>9</nb>
+    <d>
+      <time>1495513705960</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>323</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+  <jbr plugin="global-build-stats@1.4">
+    <r>SUCCESS</r>
+    <n>Deploy to Prod</n>
+    <nb>10</nb>
+    <d>
+      <time>1495513759238</time>
+      <timezone>UTC</timezone>
+    </d>
+    <du>198</du>
+    <nn>master</nn>
+    <un>lance.luo</un>
+  </jbr>
+</list>

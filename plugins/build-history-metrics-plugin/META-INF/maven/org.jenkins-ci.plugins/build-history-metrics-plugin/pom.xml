@@ -1,0 +1,118 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.jenkins-ci.plugins</groupId>
+        <artifactId>plugin</artifactId>
+        <version>1.579</version>
+        <!-- which version of Jenkins is this plugin built against? -->
+    </parent>
+
+    <artifactId>build-history-metrics-plugin</artifactId>
+    <version>1.2</version>
+    <packaging>hpi</packaging>
+    <name>Build History Metrics plugin</name>
+    <description>Provides build metrics that encompass the history of all the runs</description>
+    <url>https://wiki.jenkins-ci.org/display/JENKINS/Build+History+Metrics+Plugin</url>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-all</artifactId>
+            <version>1.9.5</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>18.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-math3</artifactId>
+            <version>3.3</version>
+        </dependency>
+    </dependencies>
+
+    <developers>
+        <developer>
+            <id>mcgin</id>
+            <name>Aidan McGinley</name>
+            <email>aidan@aidanmcginley.com</email>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:ssh://github.com/jenkinsci/build-history-metrics-plugin.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/jenkinsci/build-history-metrics-plugin.git</developerConnection>
+        <url>https://github.com/jenkinsci/build-history-metrics-plugin</url>
+      <tag>build-history-metrics-plugin-1.2</tag>
+  </scm>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.1</version>
+                <configuration>
+                    <source>1.6</source>
+                    <target>1.6</target>
+                    <compilerArgument>-Xlint:unchecked</compilerArgument>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>animal-sniffer-maven-plugin</artifactId>
+                <version>1.11</version>
+                <configuration>
+                    <signature>
+                        <groupId>org.codehaus.mojo.signature</groupId>
+                        <artifactId>java16</artifactId>
+                        <version>1.0</version>
+                    </signature>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>animal-sniffer</id>
+                        <phase>test</phase>
+                        <goals>
+                            <goal>check</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.jacoco</groupId>
+                <artifactId>jacoco-maven-plugin</artifactId>
+                <version>0.7.2.201409121644</version>
+                <executions>
+                    <execution>
+                        <id>prepare-agent</id>
+                        <goals>
+                            <goal>prepare-agent</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.eluder.coveralls</groupId>
+                <artifactId>coveralls-maven-plugin</artifactId>
+                <version>2.2.0</version>
+            </plugin>
+        </plugins>
+    </build>
+    <!-- get every artifact through repo.jenkins-ci.org, which proxies all the artifacts that we need -->
+    <repositories>
+        <repository>
+            <id>repo.jenkins-ci.org</id>
+            <url>http://repo.jenkins-ci.org/public/</url>
+        </repository>
+    </repositories>
+
+    <pluginRepositories>
+        <pluginRepository>
+            <id>repo.jenkins-ci.org</id>
+            <url>http://repo.jenkins-ci.org/public/</url>
+        </pluginRepository>
+    </pluginRepositories>
+</project>

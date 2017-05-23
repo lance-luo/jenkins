@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UpstreamCause>
+            <upstreamProject>hello_world</upstreamProject>
+            <upstreamUrl>job/hello_world/</upstreamUrl>
+            <upstreamBuild>19</upstreamBuild>
+            <upstreamCauses>
+              <com.cloudbees.jenkins.GitHubPushCause plugin="github@1.27.0">
+                <pushedBy>lance-luo</pushedBy>
+              </com.cloudbees.jenkins.GitHubPushCause>
+            </upstreamCauses>
+          </hudson.model.Cause_-UpstreamCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <hudson.plugins.copyartifact.CopyArtifact_-EnvAction plugin="copyartifact@1.38.1"/>
+    <hudson.tasks.Fingerprinter_-FingerprintAction>
+      <record>
+        <entry>
+          <string>index.html</string>
+          <string>44da5fd7ca6f228f1ad4017a5556c442</string>
+        </entry>
+      </record>
+    </hudson.tasks.Fingerprinter_-FingerprintAction>
+  </actions>
+  <queueId>38</queueId>
+  <timestamp>1494912164423</timestamp>
+  <startTime>1494912164424</startTime>
+  <result>SUCCESS</result>
+  <duration>390</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/var/lib/jenkins/workspace/Deploy to Staging</workspace>
+  <hudsonVersion>2.60</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
+</build>

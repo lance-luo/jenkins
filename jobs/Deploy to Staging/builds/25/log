@@ -1,0 +1,7 @@
+Started by upstream project "[8mha:////4NegSfSTnO1xTwer6v/g8rUk3ahyw2Ek3yG45zveh6EZAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgZR/az8JP2CypKM/Lz4gqL8rNTkEkN9AHln9kTKAAAA[0mpython_project1" build number [8mha:////4AMnrb+chPC8HlCRbFabURHJriF3yJB0+Vu71Ispy7vbAAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZx/az8JP2CypKM/Lz4gqL8rNTkEkN9QwMA0j0CmMwAAAA=[0m10
+originally caused by:
+ Started by user [8mha:////4OeLiUrBa1gcPSCvPVaFLPzHK+aMjqoXb+m61xKbizCXAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/dLi1CKQGcmpejml+QBPcX4wxAAAAA==[0mLance Luo
+Building in workspace /var/lib/jenkins/workspace/Deploy to Staging
+Unable to access upstream artifacts area /var/lib/jenkins/jobs/python_project1/builds/10/archive. Does source project archive artifacts?
+ERROR: Failed to copy artifacts from python_project1 with filter: *.html
+[8mha:////4LqQbeD2iXvGFajmT2gWcIwsOe8OXi+/yiuUZaY1g3xjAAAAVx+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0mV3NWzufebKBsTA0NFEYMUmgZnCA1SyAABjCCFBQC2xNaiYAAAAA==[0mFinished: FAILURE

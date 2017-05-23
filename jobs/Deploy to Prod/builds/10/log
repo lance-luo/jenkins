@@ -1,0 +1,9 @@
+Started by user [8mha:////4OeLiUrBa1gcPSCvPVaFLPzHK+aMjqoXb+m61xKbizCXAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/dLi1CKQGcmpejml+QBPcX4wxAAAAA==[0mLance Luo
+Building in workspace /var/lib/jenkins/workspace/Deploy to Prod
+Copied 1 artifact from "[8mha:////4Kwzypi/X1uhJCrn4MHMbcMbieA4vTAeY8BrROSP1hFGAAAAlh+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMjgL2EQ1c/KT9IvqCzJyM+LLyjKz0pNLjHUBwCiCA8KmgAAAA==[0mpython_project1" build number [8mha:////4KBV8gOIdBYWbbzWHzRL0IwBGHXi6gtMYAG4TnHPL3UBAAAAmR+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMhgKmGQ0M/KT9IvqCzJyM+LLyjKz0pNLjHUNzbTBwCpmMsBnQAAAA==[0m36
+SSH: Connecting from host [ip-172-31-20-103]
+SSH: Connecting with configuration [Prod] ...
+SSH: Disconnecting configuration [Prod] ...
+SSH: Transferred 1 file(s)
+Build step 'Send files or execute commands over SSH' changed build result to SUCCESS
+Finished: SUCCESS

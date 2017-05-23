@@ -1,0 +1,22 @@
+commit 450ffa5d0062466ed722be81a0995cb39958fa02
+tree 456c3056a6c2f0b76d171e5bc127612c96919a49
+parent ef115108db9d6e6f70aebe68a48d52245106892e
+author Cloud User <centos@ip-172-31-20-103.ap-southeast-2.compute.internal> 2017-05-18 05:02:17 +0000
+committer Cloud User <centos@ip-172-31-20-103.ap-southeast-2.compute.internal> 2017-05-18 05:02:17 +0000
+
+    reversal again and again...
+
+
+
+:100644 100644 9a5af35b611b1116873cae68c36fcd0fd9534844 d4bf17bc77f86dc1aea3a841473569eac8c61409 M	tests/authentication_tests.py
+commit ef115108db9d6e6f70aebe68a48d52245106892e
+tree d5e8c1840e5b42e9615d611dbd3675de60b45cef
+parent d909d54373347e9c282655d2ff94aa9939d252e6
+author Cloud User <centos@ip-172-31-20-103.ap-southeast-2.compute.internal> 2017-05-18 05:00:53 +0000
+committer Cloud User <centos@ip-172-31-20-103.ap-southeast-2.compute.internal> 2017-05-18 05:00:53 +0000
+
+    reversal again...
+
+
+
+:100644 100644 4cce4f2bfdc8182839bdf1a253920ff5d3b41347 9a5af35b611b1116873cae68c36fcd0fd9534844 M	tests/authentication_tests.py

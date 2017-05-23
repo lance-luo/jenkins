@@ -1,0 +1,28 @@
+Started by user [8mha:////4OeLiUrBa1gcPSCvPVaFLPzHK+aMjqoXb+m61xKbizCXAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/dLi1CKQGcmpejml+QBPcX4wxAAAAA==[0mLance Luo
+Building in workspace /var/lib/jenkins/workspace/Deploy artifacts
+FATAL: Failed to copy /var/lib/jenkins/jobs/hello_world/builds/6/archive/HelloWorld.java to /home/HelloWorld.java
+[8mha:////4LqQbeD2iXvGFajmT2gWcIwsOe8OXi+/yiuUZaY1g3xjAAAAVx+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0mV3NWzufebKBsTA0NFEYMUmgZnCA1SyAABjCCFBQC2xNaiYAAAAA==[0mjava.nio.file.AccessDeniedException: /home/HelloWorld.java
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:84)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:214)
+	at java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:434)
+	at java.nio.file.Files.newOutputStream(Files.java:216)
+	at hudson.FilePath.write(FilePath.java:1879)
+	at hudson.plugins.copyartifact.FingerprintingCopyMethod.copyOne(FingerprintingCopyMethod.java:82)
+Caused: hudson.util.IOException2: Failed to copy /var/lib/jenkins/jobs/hello_world/builds/6/archive/HelloWorld.java to /home/HelloWorld.java
+	at hudson.plugins.copyartifact.FingerprintingCopyMethod.copyOne(FingerprintingCopyMethod.java:118)
+	at hudson.plugins.copyartifact.FingerprintingCopyMethod.copyAll(FingerprintingCopyMethod.java:67)
+	at hudson.plugins.copyartifact.CopyArtifact.perform(CopyArtifact.java:526)
+	at hudson.plugins.copyartifact.CopyArtifact.perform(CopyArtifact.java:460)
+	at hudson.tasks.BuildStepCompatibilityLayer.perform(BuildStepCompatibilityLayer.java:81)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:735)
+	at hudson.model.Build$BuildExecution.build(Build.java:206)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:163)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:490)
+	at hudson.model.Run.execute(Run.java:1735)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:405)
+Finished: FAILURE

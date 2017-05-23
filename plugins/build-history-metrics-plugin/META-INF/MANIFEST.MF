@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: Aidan
+Build-Jdk: 1.8.0_45
+Extension-Name: build-history-metrics-plugin
+Specification-Title: Provides build metrics that encompass the history
+  of all the runs
+Implementation-Title: build-history-metrics-plugin
+Implementation-Version: 1.2
+Group-Id: org.jenkins-ci.plugins
+Short-Name: build-history-metrics-plugin
+Long-Name: Build History Metrics plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/Build+History+Metrics
+ +Plugin
+Plugin-Version: 1.2
+Hudson-Version: 1.579
+Jenkins-Version: 1.579
+Plugin-Developers: Aidan McGinley:mcgin:aidan@aidanmcginley.com
+

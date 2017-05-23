@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2017-05-15 06:20:07.553 UTC</timestamp>
+  <original>
+    <name>hello_world</name>
+    <number>6</number>
+  </original>
+  <md5sum>7e0fe8213106add35456521ccb136ec3</md5sum>
+  <fileName>README.md</fileName>
+  <usages>
+    <entry>
+      <string>Deploy to Staging</string>
+      <ranges>5-8</ranges>
+    </entry>
+    <entry>
+      <string>hello_world</string>
+      <ranges>6,8-10</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

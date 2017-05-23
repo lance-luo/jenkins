@@ -1,0 +1,23 @@
+Started by user [8mha:////4OeLiUrBa1gcPSCvPVaFLPzHK+aMjqoXb+m61xKbizCXAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/dLi1CKQGcmpejml+QBPcX4wxAAAAA==[0mLance Luo
+Building in workspace /var/lib/jenkins/workspace/my_app
+Cloning the remote Git repository
+Cloning repository https://github.com/lance-luo/my-app.git
+ > git init /var/lib/jenkins/workspace/my_app # timeout=10
+Fetching upstream changes from https://github.com/lance-luo/my-app.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/lance-luo/my-app.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/lance-luo/my-app.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/lance-luo/my-app.git # timeout=10
+Fetching upstream changes from https://github.com/lance-luo/my-app.git
+ > git fetch --tags --progress https://github.com/lance-luo/my-app.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 9a06c341e30f805f5b7df3f9c882d36900c1ac81 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 9a06c341e30f805f5b7df3f9c882d36900c1ac81
+First time build. Skipping changelog.
+Parsing POMs
+ERROR: No such file /var/lib/jenkins/workspace/my_app/pom.xml
+Perhaps you need to specify the correct POM file path in the project configuration?
+[8mha:////4LqQbeD2iXvGFajmT2gWcIwsOe8OXi+/yiuUZaY1g3xjAAAAVx+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0mV3NWzufebKBsTA0NFEYMUmgZnCA1SyAABjCCFBQC2xNaiYAAAAA==[0mFinished: FAILURE

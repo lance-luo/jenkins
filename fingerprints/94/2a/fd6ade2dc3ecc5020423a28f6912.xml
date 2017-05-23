@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2017-05-22 04:24:26.203 UTC</timestamp>
+  <original>
+    <name>my_app/com.mycompany.app:my-app</name>
+    <number>2</number>
+  </original>
+  <md5sum>942afd6ade2dc3ecc5020423a28f6912</md5sum>
+  <fileName>com.mycompany.app:my-app:pom.xml</fileName>
+  <usages>
+    <entry>
+      <string>my_app</string>
+      <ranges>2-5</ranges>
+    </entry>
+    <entry>
+      <string>my_app/com.mycompany.app:my-app</string>
+      <ranges>2-5</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

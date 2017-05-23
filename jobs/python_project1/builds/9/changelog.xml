@@ -1,0 +1,11 @@
+commit 969fd95139664da1a5d5f40639b653f42fdd6618
+tree eddc53bdf3d813343f9dfdd8de61d15d67173014
+parent 450ffa5d0062466ed722be81a0995cb39958fa02
+author Cloud User <centos@ip-172-31-20-103.ap-southeast-2.compute.internal> 2017-05-18 06:31:00 +0000
+committer Cloud User <centos@ip-172-31-20-103.ap-southeast-2.compute.internal> 2017-05-18 06:31:00 +0000
+
+    index page is created...
+
+
+
+:000000 100644 0000000000000000000000000000000000000000 56d72103d683389d4d510422e58b6047cfc19f82 A	index.html

@@ -1,0 +1,9 @@
+Started on May 15, 2017 6:58:45 AM
+Started by event from 192.30.252.42 ⇒ http://54.252.133.95:8080/github-webhook/ on Mon May 15 06:58:45 UTC 2017
+Using strategy: Default
+[poll] Last Built Revision: Revision 2b5c4d08da548eb883e6385806eb4035149ff879 (refs/remotes/origin/master)
+ > git ls-remote -h https://github.com/lance-luo/hello-world.git # timeout=10
+Found 2 remote heads on https://github.com/lance-luo/hello-world.git
+[poll] Latest remote head revision on refs/heads/master is: 374be89c3129b68a1a15431122603595c2bae50c
+Done. Took 0.84 sec
+Changes found

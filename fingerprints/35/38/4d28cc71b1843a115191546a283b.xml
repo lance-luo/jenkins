@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2017-05-15 06:20:07.551 UTC</timestamp>
+  <original>
+    <name>hello_world</name>
+    <number>6</number>
+  </original>
+  <md5sum>35384d28cc71b1843a115191546a283b</md5sum>
+  <fileName>HelloWorld.java</fileName>
+  <usages>
+    <entry>
+      <string>Deploy to Staging</string>
+      <ranges>5-8</ranges>
+    </entry>
+    <entry>
+      <string>hello_world</string>
+      <ranges>6,8-10</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

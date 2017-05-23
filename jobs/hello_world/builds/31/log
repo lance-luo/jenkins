@@ -1,0 +1,25 @@
+Started by user [8mha:////4OeLiUrBa1gcPSCvPVaFLPzHK+aMjqoXb+m61xKbizCXAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/dLi1CKQGcmpejml+QBPcX4wxAAAAA==[0mLance Luo
+Building in workspace /var/lib/jenkins/workspace/hello_world
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Done
+Cloning the remote Git repository
+Cloning repository https://github.com/lance-luo/hello-world.git
+ > git init /var/lib/jenkins/workspace/hello_world # timeout=10
+Fetching upstream changes from https://github.com/lance-luo/hello-world.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/lance-luo/hello-world.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/lance-luo/hello-world.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/lance-luo/hello-world.git # timeout=10
+Fetching upstream changes from https://github.com/lance-luo/hello-world.git
+ > git fetch --tags --progress https://github.com/lance-luo/hello-world.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 3c5c3a3a687abb567f0fd02ee9d89cd9cfc39807 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 3c5c3a3a687abb567f0fd02ee9d89cd9cfc39807
+ > git rev-list 3c5c3a3a687abb567f0fd02ee9d89cd9cfc39807 # timeout=10
+Archiving artifacts
+ERROR: Failed to find configuration named [Prod_Amazon_Linux] check the global configuration
+[8mha:////4LqQbeD2iXvGFajmT2gWcIwsOe8OXi+/yiuUZaY1g3xjAAAAVx+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0mV3NWzufebKBsTA0NFEYMUmgZnCA1SyAABjCCFBQC2xNaiYAAAAA==[0mBuild step 'Send build artifacts over SSH' changed build result to UNSTABLE
+Finished: UNSTABLE

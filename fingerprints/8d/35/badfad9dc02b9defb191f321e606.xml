@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2017-05-23 03:01:11.321 UTC</timestamp>
+  <original>
+    <name>my_app/com.mycompany.app:my-app</name>
+    <number>5</number>
+  </original>
+  <md5sum>8d35badfad9dc02b9defb191f321e606</md5sum>
+  <fileName>com.mycompany.app:my-app-1.0-SNAPSHOT.jar</fileName>
+  <usages>
+    <entry>
+      <string>my_app</string>
+      <ranges>5</ranges>
+    </entry>
+    <entry>
+      <string>my_app/com.mycompany.app:my-app</string>
+      <ranges>5</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

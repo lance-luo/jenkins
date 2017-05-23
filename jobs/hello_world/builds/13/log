@@ -1,0 +1,25 @@
+Started by GitHub push by lance-luo
+Building in workspace /var/lib/jenkins/workspace/hello_world
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Done
+Cloning the remote Git repository
+Cloning repository https://github.com/lance-luo/hello-world.git
+ > git init /var/lib/jenkins/workspace/hello_world # timeout=10
+Fetching upstream changes from https://github.com/lance-luo/hello-world.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/lance-luo/hello-world.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/lance-luo/hello-world.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/lance-luo/hello-world.git # timeout=10
+Fetching upstream changes from https://github.com/lance-luo/hello-world.git
+ > git fetch --tags --progress https://github.com/lance-luo/hello-world.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 2713953561ffb60fcf4840a7834893c2b4647272 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2713953561ffb60fcf4840a7834893c2b4647272
+ > git rev-list 02575f0052e6a2d71d4a6ca4522ce00d6e690627 # timeout=10
+Archiving artifacts
+Warning: you have no plugins providing access control for builds, so falling back to legacy behavior of permitting any downstream builds to be triggered
+Triggering a new build of [8mha:////4LZz+VodkRdXtCtalni0p4KyxXlDc3TgODZLQHLG9tweAAAApR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgZp/az8JH2X1IKc/EpVI4OSfCARXJKYDjRMHwCr+V+70AAAAA==[0mDeploy to Staging
+Finished: SUCCESS

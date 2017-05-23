@@ -1,0 +1,15 @@
+Started by user [8mha:////4OeLiUrBa1gcPSCvPVaFLPzHK+aMjqoXb+m61xKbizCXAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/dLi1CKQGcmpejml+QBPcX4wxAAAAA==[0mLance Luo
+Building in workspace /var/lib/jenkins/workspace/hello_world
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/lance-luo/hello-world.git # timeout=10
+Fetching upstream changes from https://github.com/lance-luo/hello-world.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/lance-luo/hello-world.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision d03fae5d8ef6ee7a1566000f0c931c0c965f701d (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f d03fae5d8ef6ee7a1566000f0c931c0c965f701d
+ > git rev-list 383ee65cf205c6ff5c1f6f0afa31c0cc1d29a2c7 # timeout=10
+Finished: SUCCESS

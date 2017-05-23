@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UpstreamCause>
+            <upstreamProject>hello_world</upstreamProject>
+            <upstreamUrl>job/hello_world/</upstreamUrl>
+            <upstreamBuild>17</upstreamBuild>
+            <upstreamCauses>
+              <hudson.model.Cause_-UserIdCause>
+                <userId>lance.luo</userId>
+              </hudson.model.Cause_-UserIdCause>
+            </upstreamCauses>
+          </hudson.model.Cause_-UpstreamCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <hudson.plugins.copyartifact.CopyArtifact_-EnvAction plugin="copyartifact@1.38.1"/>
+    <hudson.tasks.Fingerprinter_-FingerprintAction>
+      <record>
+        <entry>
+          <string>index.html</string>
+          <string>26d6d3b349673eedee361908ee7ad499</string>
+        </entry>
+      </record>
+    </hudson.tasks.Fingerprinter_-FingerprintAction>
+  </actions>
+  <queueId>34</queueId>
+  <timestamp>1494902116191</timestamp>
+  <startTime>1494902116192</startTime>
+  <result>SUCCESS</result>
+  <duration>18</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/var/lib/jenkins/workspace/Deploy to Staging</workspace>
+  <hudsonVersion>2.60</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
+</build>
