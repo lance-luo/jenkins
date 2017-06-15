@@ -1,0 +1,11 @@
+commit d909d54373347e9c282655d2ff94aa9939d252e6
+tree a83841828a1ff86ffa016de612d18d4921c22e5b
+parent 55a76df0b6e580910d34edd771b73bfe5117ddc4
+author Cloud User <centos@ip-172-31-20-103.ap-southeast-2.compute.internal> 2017-05-18 04:31:41 +0000
+committer Cloud User <centos@ip-172-31-20-103.ap-southeast-2.compute.internal> 2017-05-18 04:31:41 +0000
+
+    reverse bug fix to logout() test
+
+
+
+:100644 100644 9a5af35b611b1116873cae68c36fcd0fd9534844 4cce4f2bfdc8182839bdf1a253920ff5d3b41347 M	tests/authentication_tests.py

@@ -1,0 +1,86 @@
+Started by user [8mha:////4OeLiUrBa1gcPSCvPVaFLPzHK+aMjqoXb+m61xKbizCXAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/dLi1CKQGcmpejml+QBPcX4wxAAAAA==[0mLance Luo
+Building in workspace /var/lib/jenkins/workspace/python_project1
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/lance-luo/project1.git # timeout=10
+Fetching upstream changes from https://github.com/lance-luo/project1.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/lance-luo/project1.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision fab2f8a545d5b8b40a95009b6f362f3fbb7d2936 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f fab2f8a545d5b8b40a95009b6f362f3fbb7d2936
+ > git rev-list fab2f8a545d5b8b40a95009b6f362f3fbb7d2936 # timeout=10
+[python_project1] $ /bin/sh -xe /tmp/jenkins3286689893282128559.sh
++ /usr/bin/nosetests --with-xunit --all-modules --traverse-namespace --with-coverage --cover-package=project1 --cover-inclusive
+...
+Name                      Stmts   Miss  Cover   Missing
+-------------------------------------------------------
+project1                      0      0   100%   
+project1.authentication      15      2    87%   18-19
+-------------------------------------------------------
+TOTAL                        15      2    87%   
+----------------------------------------------------------------------
+Ran 3 tests in 0.017s
+
+OK
++ /usr/bin/python -m coverage xml '--include=project1*'
++ tee pylint.out
++ /usr/bin/pylint -f parseable -d I0011,R0801 project1
+No config file found, using default configuration
+************* Module project1.authentication
+project1/authentication.py:16: [C0303(trailing-whitespace), ] Trailing whitespace
+project1/authentication.py:4: [C0111(missing-docstring), login] Missing function docstring
+project1/authentication.py:13: [W0703(broad-except), login] Catching too general exception Exception
+project1/authentication.py:9: [R1703(simplifiable-if-statement), login] The if statement can be replaced with 'return bool(test)'
+project1/authentication.py:9: [R1705(no-else-return), login] Unnecessary "else" after "return"
+project1/authentication.py:13: [W0612(unused-variable), login] Unused variable 'exc'
+project1/authentication.py:17: [C0111(missing-docstring), logout] Missing function docstring
+
+------------------------------------------------------------------
+Your code has been rated at 5.00/10 (previous run: 5.00/10, +0.00)
+
+Archiving artifacts
+[Cobertura] Publishing Cobertura coverage report...
+Publishing Cobertura coverage results...
+Cobertura coverage report found.
+Recording test results
+Build step 'Report Violations' changed build result to UNSTABLE
+Sending e-mails to: cncluo@163.com
+ERROR: Could not connect to SMTP host: smtp.139.com, port: 25
+[8mha:////4LqQbeD2iXvGFajmT2gWcIwsOe8OXi+/yiuUZaY1g3xjAAAAVx+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0mV3NWzufebKBsTA0NFEYMUmgZnCA1SyAABjCCFBQC2xNaiYAAAAA==[0mjavax.mail.MessagingException: Could not connect to SMTP host: smtp.139.com, port: 25;
+  nested exception is:
+	java.net.SocketTimeoutException: connect timed out
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:1934)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:638)
+	at javax.mail.Service.connect(Service.java:317)
+	at javax.mail.Service.connect(Service.java:176)
+	at javax.mail.Service.connect(Service.java:125)
+	at javax.mail.Transport.send0(Transport.java:194)
+	at javax.mail.Transport.send(Transport.java:124)
+	at hudson.tasks.MailSender.run(MailSender.java:131)
+	at hudson.tasks.Mailer.perform(Mailer.java:170)
+	at hudson.tasks.BuildStepCompatibilityLayer.perform(BuildStepCompatibilityLayer.java:81)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:735)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:676)
+	at hudson.model.Build$BuildExecution.post2(Build.java:186)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.post(AbstractBuild.java:621)
+	at hudson.model.Run.execute(Run.java:1760)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:405)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.sun.mail.util.SocketFetcher.createSocket(SocketFetcher.java:286)
+	at com.sun.mail.util.SocketFetcher.getSocket(SocketFetcher.java:231)
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:1900)
+	... 18 more
+Warning: you have no plugins providing access control for builds, so falling back to legacy behavior of permitting any downstream builds to be triggered
+Finished: UNSTABLE

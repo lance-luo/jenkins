@@ -1,0 +1,26 @@
+Started by user [8mha:////4OeLiUrBa1gcPSCvPVaFLPzHK+aMjqoXb+m61xKbizCXAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/dLi1CKQGcmpejml+QBPcX4wxAAAAA==[0mLance Luo
+Building in workspace /var/lib/jenkins/workspace/scala_project
+Cloning the remote Git repository
+Cloning repository https://github.com/jpzk/mockedstreams.git
+ > git init /var/lib/jenkins/workspace/scala_project # timeout=10
+Fetching upstream changes from https://github.com/jpzk/mockedstreams.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/jpzk/mockedstreams.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/jpzk/mockedstreams.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/jpzk/mockedstreams.git # timeout=10
+Fetching upstream changes from https://github.com/jpzk/mockedstreams.git
+ > git fetch --tags --progress https://github.com/jpzk/mockedstreams.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 92afedbac6dd4789f5a67016f4f8b8b469480794 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 92afedbac6dd4789f5a67016f4f8b8b469480794
+First time build. Skipping changelog.
+Unpacking https://dl.bintray.com/sbt/native-packages/sbt/1.0.0-M4/sbt-1.0.0-M4.zip to /var/lib/jenkins/tools/org.jvnet.hudson.plugins.SbtPluginBuilder_SbtInstallation/0.13.15.3-3 on Jenkins
+[scala_project] $ java -XX:+CMSClassUnloadingEnabled -XX:MaxPermSize=256m -Xmx512M -Xss16M /usr/share/sbt/bin/sbt-launch.jar -Dsbt.log.noformat=true -jar /var/lib/jenkins/tools/org.jvnet.hudson.plugins.SbtPluginBuilder_SbtInstallation/0.13.15.3-3/bin/sbt-launch.jar clean coverage test
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=256m; support was removed in 8.0
+Error: Could not find or load main class .usr.share.sbt.bin.sbt-launch.jar
+Build step 'Build using sbt' changed build result to FAILURE
+Build step 'Build using sbt' marked build as failure
+Finished: FAILURE

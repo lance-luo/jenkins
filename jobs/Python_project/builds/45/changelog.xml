@@ -1,0 +1,11 @@
+commit a54c02cc0fa721547b1eb3aeab0e7a2e7a98fb15
+tree 4ba53a89f65d6f32ba0f29d230df6a68f0cb3e56
+parent 1a59549a141ea387c57b670332336a8bd5a8968f
+author lance-luo <luochangan@gmail.com> 2017-06-06 12:40:40 +1000
+committer GitHub <noreply@github.com> 2017-06-06 12:40:40 +1000
+
+    Update authentication.py
+
+
+
+:100644 100644 be3ded3f34c11a71a5a58bd1a5712fc80c2f7b77 e003c485edead37d041383ed7c5ed7bca03dd49d M	project1/authentication.py

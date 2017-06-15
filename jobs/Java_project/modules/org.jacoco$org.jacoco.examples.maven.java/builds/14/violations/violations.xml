@@ -1,0 +1,17 @@
+<violations>
+  <type name='checkstyle'>
+    <file
+      name="src/main/java/org/jacoco/examples/maven/java/HelloWorld.java"
+      count = '8'>
+      <severity level="0" count="8"/>
+      <source  name="JavadocTypeCheck" count="1"/>
+      <source  name="DesignForExtensionCheck" count="1"/>
+      <source  name="JavadocPackageCheck" count="1"/>
+      <source  name="JavadocMethodCheck" count="1"/>
+      <source  name="AvoidStarImportCheck" count="1"/>
+      <source  name="FileTabCharacterCheck" count="1"/>
+      <source  name="FinalParametersCheck" count="1"/>
+      <source  name="RegexpSinglelineCheck" count="1"/>
+  </file>
+  </type>
+</violations>

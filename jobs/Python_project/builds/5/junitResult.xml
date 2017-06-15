@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<result plugin="junit@1.20">
+  <suites>
+    <suite>
+      <file>/var/lib/jenkins/workspace/python_project1/nosetests.xml</file>
+      <name>nosetests</name>
+      <duration>0.003</duration>
+      <cases>
+        <case>
+          <duration>0.001</duration>
+          <className>tests.authentication_tests.StandAloneTests</className>
+          <testName>test_login</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>tests.authentication_tests.StandAloneTests</className>
+          <testName>test_login_bad_creds</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>tests.authentication_tests.StandAloneTests</className>
+          <testName>test_login_error</testName>
+          <skipped>false</skipped>
+          <stdout>I can&apos;t authenticate you.
+</stdout>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>tests.authentication_tests.StandAloneTests</className>
+          <testName>test_logout</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>  File &quot;/usr/lib64/python2.7/unittest/case.py&quot;, line 369, in run
+    testMethod()
+  File &quot;/usr/lib/python2.7/site-packages/mock/mock.py&quot;, line 1305, in patched
+    return func(*args, **keywargs)
+  File &quot;/var/lib/jenkins/workspace/python_project1/tests/authentication_tests.py&quot;, line 29, in test_logout
+    self.assertTrue(auth.logout())
+  File &quot;/usr/lib64/python2.7/unittest/case.py&quot;, line 462, in assertTrue
+    raise self.failureException(msg)
+None is not true
+-------------------- &gt;&gt; begin captured stdout &lt;&lt; ---------------------
+this line will not be covered by test cases.
+this line will not be covered by test cases as well.
+
+--------------------- &gt;&gt; end captured stdout &lt;&lt; ----------------------</errorStackTrace>
+          <errorDetails>None is not true
+-------------------- &gt;&gt; begin captured stdout &lt;&lt; ---------------------
+this line will not be covered by test cases.
+this line will not be covered by test cases as well.
+
+--------------------- &gt;&gt; end captured stdout &lt;&lt; ----------------------</errorDetails>
+          <stdout>this line will not be covered by test cases.
+this line will not be covered by test cases as well.
+</stdout>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>0.003</duration>
+  <keepLongStdio>false</keepLongStdio>
+</result>

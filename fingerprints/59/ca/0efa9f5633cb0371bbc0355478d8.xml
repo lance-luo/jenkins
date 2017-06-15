@@ -9,10 +9,6 @@
   <fileName>helloworld.html</fileName>
   <usages>
     <entry>
-      <string>hello_world</string>
-      <ranges>9,14</ranges>
-    </entry>
-    <entry>
       <string>Deploy to Staging</string>
       <ranges>7,14</ranges>
     </entry>

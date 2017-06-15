@@ -14,11 +14,7 @@
     </entry>
     <entry>
       <string>Deploy to Staging</string>
-      <ranges>30-32</ranges>
-    </entry>
-    <entry>
-      <string>python_project1</string>
-      <ranges>15,31-32</ranges>
+      <ranges>30-32,35</ranges>
     </entry>
   </usages>
   <facets/>

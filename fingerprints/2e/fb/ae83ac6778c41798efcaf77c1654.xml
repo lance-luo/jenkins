@@ -9,10 +9,6 @@
   <fileName>index.html</fileName>
   <usages>
     <entry>
-      <string>hello_world</string>
-      <ranges>13,21</ranges>
-    </entry>
-    <entry>
       <string>Deploy to Staging</string>
       <ranges>13,21</ranges>
     </entry>

@@ -1,0 +1,22 @@
+commit cbd04a6ee84b3aa1a2f8512a150db5b02a937f6b
+tree 3eb6efa218d421db81b373ca6849e0e2ed90cfc8
+parent 6692b7ae1f891239bf12af7322446b2ad2d549f2
+author lance-luo <luochangan@gmail.com> 2017-05-25 23:38:48 +1000
+committer GitHub <noreply@github.com> 2017-05-25 23:38:48 +1000
+
+    Update pom.xml
+
+
+
+:100644 100644 51d5eaad493f37154b29b78a5910808917665a23 89f15a3bf294ca2594a3f0a4e79378261e5b62bf M	org.jacoco.examples.maven.java/pom.xml
+commit 6692b7ae1f891239bf12af7322446b2ad2d549f2
+tree ba95c028b9183ea0a2a94aba07b046351fe5a32e
+parent 37b1b65c5a12cdb5ac359693303117eb73a3964b
+author lance-luo <luochangan@gmail.com> 2017-05-25 23:37:00 +1000
+committer GitHub <noreply@github.com> 2017-05-25 23:37:00 +1000
+
+    Update pom.xml
+
+
+
+:100644 100644 b70154069c79edd379ab83e95a82415a5c89d1c5 51d5eaad493f37154b29b78a5910808917665a23 M	org.jacoco.examples.maven.java/pom.xml

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2017-05-25 01:18:59.300 UTC</timestamp>
+  <md5sum>68380001b88006ebe49be50cef5bb23a</md5sum>
+  <fileName>junit:junit-4.10.jar</fileName>
+  <usages>
+    <entry>
+      <string>Java_project</string>
+      <ranges>2-22</ranges>
+    </entry>
+    <entry>
+      <string>Java_project/org.jacoco:org.jacoco.examples.maven.java</string>
+      <ranges>2-22</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

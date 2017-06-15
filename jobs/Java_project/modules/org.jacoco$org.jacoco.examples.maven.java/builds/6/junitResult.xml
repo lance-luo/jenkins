@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<result plugin="junit@1.20">
+  <suites>
+    <suite>
+      <file>/var/lib/jenkins/workspace/jacoco-maven-examples/org.jacoco.examples.maven.java/target/surefire-reports/TEST-org.jacoco.examples.maven.java.HelloWorldTest.xml</file>
+      <name>org.jacoco.examples.maven.java.HelloWorldTest</name>
+      <duration>0.004</duration>
+      <time>0.004</time>
+      <cases>
+        <case>
+          <duration>0.004</duration>
+          <className>org.jacoco.examples.maven.java.HelloWorldTest</className>
+          <testName>testGetMessage</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>0.004</duration>
+  <keepLongStdio>false</keepLongStdio>
+</result>

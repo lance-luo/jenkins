@@ -13,7 +13,7 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.plugins.copyartifact.CopyArtifact plugin="copyartifact@1.38.1">
-      <project>python_project1</project>
+      <project>Python_project</project>
       <filter>*.html</filter>
       <target></target>
       <excludes></excludes>

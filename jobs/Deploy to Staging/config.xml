@@ -12,7 +12,7 @@
   <triggers>
     <jenkins.triggers.ReverseBuildTrigger>
       <spec></spec>
-      <upstreamProjects>python_project1, </upstreamProjects>
+      <upstreamProjects>Python_project</upstreamProjects>
       <threshold>
         <name>SUCCESS</name>
         <ordinal>0</ordinal>
@@ -24,7 +24,7 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.plugins.copyartifact.CopyArtifact plugin="copyartifact@1.38.1">
-      <project>python_project1</project>
+      <project>Python_project</project>
       <filter>*.html</filter>
       <target>/var/www/html</target>
       <excludes></excludes>

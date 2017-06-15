@@ -33,14 +33,13 @@
     <se.diabol.jenkins.pipeline.DeliveryPipelineView plugin="delivery-pipeline-plugin@1.0.1">
       <owner class="hudson" reference="../../.."/>
       <name>Delivery Pipeline View</name>
-      <description></description>
       <filterExecutors>false</filterExecutors>
       <filterQueue>false</filterQueue>
       <properties class="hudson.model.View$PropertyList"/>
       <componentSpecs>
         <se.diabol.jenkins.pipeline.DeliveryPipelineView_-ComponentSpec>
           <name>First_job</name>
-          <firstJob>python_project1</firstJob>
+          <firstJob>python_project</firstJob>
           <lastJob></lastJob>
           <showUpstream>false</showUpstream>
         </se.diabol.jenkins.pipeline.DeliveryPipelineView_-ComponentSpec>
@@ -68,7 +67,7 @@
       <maxNumberOfVisiblePipelines>-1</maxNumberOfVisiblePipelines>
       <regexpFirstJobs/>
       <linkToConsoleLog>false</linkToConsoleLog>
-      <description defined-in="se.diabol.jenkins.pipeline.DeliveryPipelineView"></description>
+      <description></description>
     </se.diabol.jenkins.pipeline.DeliveryPipelineView>
     <au.com.centrumsystems.hudson.plugin.buildpipeline.BuildPipelineView plugin="build-pipeline-plugin@1.5.6">
       <owner class="hudson" reference="../../.."/>
@@ -77,8 +76,8 @@
       <filterQueue>false</filterQueue>
       <properties class="hudson.model.View$PropertyList"/>
       <gridBuilder class="au.com.centrumsystems.hudson.plugin.buildpipeline.DownstreamProjectGridBuilder">
-        <firstJob>python_project1</firstJob>
-        <firstJobLink>job/python_project1/</firstJobLink>
+        <firstJob>Python_project</firstJob>
+        <firstJobLink>job/python_project/</firstJobLink>
       </gridBuilder>
       <noOfDisplayedBuilds>1</noOfDisplayedBuilds>
       <buildViewTitle></buildViewTitle>

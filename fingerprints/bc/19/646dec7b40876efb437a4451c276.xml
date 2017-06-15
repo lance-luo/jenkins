@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2017-06-01 01:13:45.322 UTC</timestamp>
+  <original>
+    <name>Java_project/org.jacoco:org.jacoco.examples.maven.java</name>
+    <number>17</number>
+  </original>
+  <md5sum>bc19646dec7b40876efb437a4451c276</md5sum>
+  <fileName>org.jacoco:org.jacoco.examples.maven.java-1.0-SNAPSHOT.jar</fileName>
+  <usages>
+    <entry>
+      <string>Java_project</string>
+      <ranges>17</ranges>
+    </entry>
+    <entry>
+      <string>Java_project/org.jacoco:org.jacoco.examples.maven.java</string>
+      <ranges>17</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

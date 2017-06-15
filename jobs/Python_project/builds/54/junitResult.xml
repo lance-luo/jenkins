@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<result plugin="junit@1.20">
+  <suites>
+    <suite>
+      <file>/var/lib/jenkins/workspace/Python_project/nosetests.xml</file>
+      <name>nosetests</name>
+      <duration>0.002</duration>
+      <cases>
+        <case>
+          <duration>0.001</duration>
+          <className>tests.authentication_tests.StandAloneTests</className>
+          <testName>test_login</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>tests.authentication_tests.StandAloneTests</className>
+          <testName>test_login_bad_creds</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>tests.authentication_tests.StandAloneTests</className>
+          <testName>test_login_error</testName>
+          <skipped>false</skipped>
+          <stdout>I can&apos;t authenticate you.
+</stdout>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>0.002</duration>
+  <keepLongStdio>false</keepLongStdio>
+</result>

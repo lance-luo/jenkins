@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2017-05-25 01:18:59.295 UTC</timestamp>
+  <original>
+    <name>Java_project/org.jacoco:org.jacoco.examples.maven.java</name>
+    <number>2</number>
+  </original>
+  <md5sum>497ef070c968c858fdc549dfb82d2f03</md5sum>
+  <fileName>org.jacoco:org.jacoco.examples.maven.java:pom.xml</fileName>
+  <usages>
+    <entry>
+      <string>Java_project</string>
+      <ranges>2-10,12-20,22</ranges>
+    </entry>
+    <entry>
+      <string>Java_project/org.jacoco:org.jacoco.examples.maven.java</string>
+      <ranges>2-20,22</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

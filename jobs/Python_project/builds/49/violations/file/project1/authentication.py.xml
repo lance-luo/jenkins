@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file
+  name="project1/authentication.py"
+  last-modified="1496717134000"
+  file="/var/lib/jenkins/workspace/Python_project/project1/authentication.py"
+>
+  <violation
+    line="4"
+    source="C0111"
+    severity="Low"
+    type="pylint"
+    message="Missing function docstring"
+    severity-level="4"
+    popup-message="Missing function docstring"
+  />
+  <violation
+    line="9"
+    source="R1703"
+    severity="Medium Low"
+    type="pylint"
+    message="The if statement can be replaced with 'return bool(test)'"
+    severity-level="3"
+    popup-message="The if statement can be replaced with 'return bool(test)'"
+  />
+  <violation
+    line="9"
+    source="R1705"
+    severity="Medium Low"
+    type="pylint"
+    message="Unnecessary &quot;else&quot; after &quot;return&quot;"
+    severity-level="3"
+    popup-message="Unnecessary &quot;else&quot; after &quot;return&quot;"
+  />
+  <violation
+    line="13"
+    source="W0703"
+    severity="Medium"
+    type="pylint"
+    message="Catching too general exception Exception"
+    severity-level="2"
+    popup-message="Catching too general exception Exception"
+  />
+  <violation
+    line="13"
+    source="W0511"
+    severity="Medium"
+    type="pylint"
+    message="TODO - To remove the unused variable."
+    severity-level="2"
+    popup-message="TODO - To remove the unused variable."
+  />
+  <violation
+    line="13"
+    source="W0612"
+    severity="Medium"
+    type="pylint"
+    message="Unused variable 'exc'"
+    severity-level="2"
+    popup-message="Unused variable 'exc'"
+  />
+  <violation
+    line="16"
+    source="C0303"
+    severity="Low"
+    type="pylint"
+    message="Trailing whitespace"
+    severity-level="4"
+    popup-message="Trailing whitespace"
+  />
+  <violation
+    line="17"
+    source="C0111"
+    severity="Low"
+    type="pylint"
+    message="Missing function docstring"
+    severity-level="4"
+    popup-message="Missing function docstring"
+  />
+  <violation
+    line="20"
+    source="C0303"
+    severity="Low"
+    type="pylint"
+    message="Trailing whitespace"
+    severity-level="4"
+    popup-message="Trailing whitespace"
+  />
+  <line number='1'>#/usr/bin/env python</line>
+  <line number='2'>"""This module provides functions for authenticating users."""</line>
+  <line number='3'></line>
+  <line number='4'>def login(username, password):</line>
+  <line number='5'>    try:</line>
+  <line number='6'>        user_file = open('/etc/users.txt')</line>
+  <line number='7'>        user_buf = user_file.read()</line>
+  <line number='8'>        users = [line.split("|") for line in user_buf.split("\n")]</line>
+  <line number='9'>        if [username, password] in users:</line>
+  <line number='10'>            return True</line>
+  <line number='11'>        else:</line>
+  <line number='12'>            return False</line>
+  <line number='13'>    except Exception, exc: #TODO - To remove the unused variable.</line>
+  <line number='14'>        print "I can't authenticate you."</line>
+  <line number='15'>        return False</line>
+  <line number='16'>        </line>
+  <line number='17'>def logout():</line>
+  <line number='18'>    print 'this line will not be covered by test cases.'</line>
+  <line number='19'>    print 'this line will not be covered by test cases as well.'</line>
+  <line number='20'>    </line>
+  <line number='21'>#URGENT - signup() function to add ASAP.</line>
+  <type type='pylint' number='9' suppressed='0'/>
+</file>

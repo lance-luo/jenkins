@@ -1,0 +1,18 @@
+<violations>
+  <type name='pylint'>
+    <file
+      name="project1/authentication.py"
+      count = '9'>
+      <severity level="2" count="3"/>
+      <severity level="3" count="2"/>
+      <severity level="4" count="4"/>
+      <source  name="R1703" count="1"/>
+      <source  name="W0703" count="1"/>
+      <source  name="C0111" count="2"/>
+      <source  name="R1705" count="1"/>
+      <source  name="W0511" count="1"/>
+      <source  name="W0612" count="1"/>
+      <source  name="C0303" count="2"/>
+  </file>
+  </type>
+</violations>

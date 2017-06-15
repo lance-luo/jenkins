@@ -9,12 +9,16 @@
   <fileName>index.html</fileName>
   <usages>
     <entry>
-      <string>hello_world</string>
-      <ranges>20,22</ranges>
+      <string>Deploy to Prod</string>
+      <ranges>11,13,15,18,21,23,25</ranges>
     </entry>
     <entry>
       <string>Deploy to Staging</string>
-      <ranges>20,22</ranges>
+      <ranges>20,22,36,38-39,45-46,49,52,54,56</ranges>
+    </entry>
+    <entry>
+      <string>Python_project</string>
+      <ranges>38,40-41,47,49,54,57,59,61</ranges>
     </entry>
   </usages>
   <facets/>

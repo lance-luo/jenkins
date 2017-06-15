@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<annotation-array>
+  <warning plugin="checkstyle@3.48">
+    <message>Missing package-info.java file.</message>
+    <priority>HIGH</priority>
+    <key>8298797724763720843</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.86">
+        <start>0</start>
+        <end>0</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>0</primaryLineNumber>
+    <fileName>/var/lib/jenkins/workspace/jacoco-maven-examples/org.jacoco.examples.maven.java/src/main/java/org/jacoco/examples/maven/java/HelloWorld.java</fileName>
+    <moduleName>JaCoCo Maven plug-in example for Java project</moduleName>
+    <packageName>org.jacoco.examples.maven.java</packageName>
+    <category>Javadoc</category>
+    <type>JavadocPackageCheck</type>
+    <contextHashCode>-411916572</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>var/lib/jenkins/workspace/jacoco-maven-examples/org.jacoco.examples.maven.java/src/main/java/org/jacoco/examples/maven/java</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+    <build>10</build>
+  </warning>
+  <warning plugin="checkstyle@3.48">
+    <message>Line has trailing spaces.</message>
+    <priority>HIGH</priority>
+    <key>8298797724763720845</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.86">
+        <start>4</start>
+        <end>4</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>4</primaryLineNumber>
+    <fileName reference="../../warning/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning/packageName"/>
+    <category>Regexp</category>
+    <type>RegexpSinglelineCheck</type>
+    <contextHashCode>-103430534</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>var/lib/jenkins/workspace/jacoco-maven-examples/org.jacoco.examples.maven.java/src/main/java/org/jacoco/examples/maven/java</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+    <build>10</build>
+  </warning>
+  <warning plugin="checkstyle@3.48">
+    <message>Parameter bigger should be final.</message>
+    <priority>HIGH</priority>
+    <key>8298797724763720849</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.86">
+        <start>5</start>
+        <end>5</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>5</primaryLineNumber>
+    <fileName reference="../../warning/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning/packageName"/>
+    <category>Checks</category>
+    <type>FinalParametersCheck</type>
+    <contextHashCode>1261976532</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>var/lib/jenkins/workspace/jacoco-maven-examples/org.jacoco.examples.maven.java/src/main/java/org/jacoco/examples/maven/java</pathName>
+    <primaryColumnStart>34</primaryColumnStart>
+    <primaryColumnEnd>34</primaryColumnEnd>
+    <build>10</build>
+  </warning>
+  <warning plugin="checkstyle@3.48">
+    <message>File contains tab characters (this is the first instance).</message>
+    <priority>HIGH</priority>
+    <key>8298797724763720846</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.86">
+        <start>4</start>
+        <end>4</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>4</primaryLineNumber>
+    <fileName reference="../../warning/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning/packageName"/>
+    <category>Whitespace</category>
+    <type>FileTabCharacterCheck</type>
+    <contextHashCode>-1805913905</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>var/lib/jenkins/workspace/jacoco-maven-examples/org.jacoco.examples.maven.java/src/main/java/org/jacoco/examples/maven/java</pathName>
+    <primaryColumnStart>1</primaryColumnStart>
+    <primaryColumnEnd>1</primaryColumnEnd>
+    <build>10</build>
+  </warning>
+  <warning plugin="checkstyle@3.48">
+    <message>Missing a Javadoc comment.</message>
+    <priority>HIGH</priority>
+    <key>8298797724763720844</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.86">
+        <start>3</start>
+        <end>3</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>3</primaryLineNumber>
+    <fileName reference="../../warning/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning/packageName"/>
+    <category>Javadoc</category>
+    <type>JavadocTypeCheck</type>
+    <contextHashCode>-482996828</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>var/lib/jenkins/workspace/jacoco-maven-examples/org.jacoco.examples.maven.java/src/main/java/org/jacoco/examples/maven/java</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+    <build>10</build>
+  </warning>
+  <warning plugin="checkstyle@3.48">
+    <message>Method &apos;getMessage&apos; is not designed for extension - needs to be abstract, final or empty.</message>
+    <priority>HIGH</priority>
+    <key>8298797724763720847</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.86">
+        <start>5</start>
+        <end>5</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>5</primaryLineNumber>
+    <fileName reference="../../warning/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning/packageName"/>
+    <category>Design</category>
+    <type>DesignForExtensionCheck</type>
+    <contextHashCode>-1509110336</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>var/lib/jenkins/workspace/jacoco-maven-examples/org.jacoco.examples.maven.java/src/main/java/org/jacoco/examples/maven/java</pathName>
+    <primaryColumnStart>9</primaryColumnStart>
+    <primaryColumnEnd>9</primaryColumnEnd>
+    <build>10</build>
+  </warning>
+  <warning plugin="checkstyle@3.48">
+    <message reference="../../warning[5]/message"/>
+    <priority>HIGH</priority>
+    <key>8298797724763720848</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.86">
+        <start>5</start>
+        <end>5</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>5</primaryLineNumber>
+    <fileName reference="../../warning/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning/packageName"/>
+    <category>Javadoc</category>
+    <type>JavadocMethodCheck</type>
+    <contextHashCode>-1995714083</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>var/lib/jenkins/workspace/jacoco-maven-examples/org.jacoco.examples.maven.java/src/main/java/org/jacoco/examples/maven/java</pathName>
+    <primaryColumnStart>9</primaryColumnStart>
+    <primaryColumnEnd>9</primaryColumnEnd>
+    <build>10</build>
+  </warning>
+</annotation-array>

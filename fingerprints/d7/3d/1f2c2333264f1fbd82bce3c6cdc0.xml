@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2017-06-01 02:37:16.472 UTC</timestamp>
+  <original>
+    <name>python_project1</name>
+    <number>39</number>
+  </original>
+  <md5sum>d73d1f2c2333264f1fbd82bce3c6cdc0</md5sum>
+  <fileName>index.html</fileName>
+  <usages>
+    <entry>
+      <string>Deploy to Prod</string>
+      <ranges>12</ranges>
+    </entry>
+    <entry>
+      <string>Deploy to Staging</string>
+      <ranges>37</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

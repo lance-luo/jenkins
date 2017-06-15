@@ -1,0 +1,11 @@
+commit 4526bd556cb41fd84edbac53dfa4aded9eeb4c46
+tree 702a72f2c34bd182b46c940c6a3753ae92bcd667
+parent 0c1a70c682b0f1ac8d3212bad8cf06340c44f74d
+author lance-luo <luochangan@gmail.com> 2017-05-25 23:53:35 +1000
+committer GitHub <noreply@github.com> 2017-05-25 23:53:35 +1000
+
+    Update HelloWorld.java
+
+
+
+:100644 100644 a36abe7a4ebe613863f1444442777d6751cb7b44 5020870e51cee1d98ad769ee903d5f43226def18 M	org.jacoco.examples.maven.java/src/main/java/org/jacoco/examples/maven/java/HelloWorld.java

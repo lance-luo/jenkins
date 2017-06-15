@@ -16,10 +16,6 @@
       <string>Deploy to Staging</string>
       <ranges>26-28</ranges>
     </entry>
-    <entry>
-      <string>python_project1</string>
-      <ranges>11-13</ranges>
-    </entry>
   </usages>
   <facets/>
 </fingerprint>

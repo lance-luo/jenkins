@@ -1,0 +1,55 @@
+Started by GitHub push by lance-luo
+Building in workspace /var/lib/jenkins/workspace/Python_project
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/lance-luo/project1.git # timeout=10
+Fetching upstream changes from https://github.com/lance-luo/project1.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/lance-luo/project1.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 1a59549a141ea387c57b670332336a8bd5a8968f (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 1a59549a141ea387c57b670332336a8bd5a8968f
+ > git rev-list dd1ede9514e9f51e165dd41eda9900a996db4d49 # timeout=10
+[Python_project] $ /bin/sh -xe /tmp/jenkins1586276087523842495.sh
++ /usr/bin/nosetests --with-xunit --all-modules --traverse-namespace --with-coverage --cover-package=project1 --cover-inclusive
+...
+Name                      Stmts   Miss  Cover   Missing
+-------------------------------------------------------
+project1                      0      0   100%   
+project1.authentication      15      2    87%   18-19
+-------------------------------------------------------
+TOTAL                        15      2    87%   
+----------------------------------------------------------------------
+Ran 3 tests in 0.017s
+
+OK
++ /usr/bin/python -m coverage xml '--include=project1*'
++ tee pylint.out
++ /usr/bin/pylint -f parseable -d I0011,R0801 project1
+No config file found, using default configuration
+************* Module project1.authentication
+project1/authentication.py:16: [C0303(trailing-whitespace), ] Trailing whitespace
+project1/authentication.py:20: [C0303(trailing-whitespace), ] Trailing whitespace
+project1/authentication.py:4: [C0111(missing-docstring), login] Missing function docstring
+project1/authentication.py:13: [W0703(broad-except), login] Catching too general exception Exception
+project1/authentication.py:9: [R1703(simplifiable-if-statement), login] The if statement can be replaced with 'return bool(test)'
+project1/authentication.py:9: [R1705(no-else-return), login] Unnecessary "else" after "return"
+project1/authentication.py:13: [W0612(unused-variable), login] Unused variable 'exc'
+project1/authentication.py:17: [C0111(missing-docstring), logout] Missing function docstring
+
+------------------------------------------------------------------
+Your code has been rated at 4.29/10 (previous run: 5.00/10, -0.71)
+
+[TASKS] Scanning folder '/var/lib/jenkins/workspace/Python_project' for files matching the pattern '**/*.py' - excludes: 
+[TASKS] Found 4 files to scan for tasks
+[TASKS] Found 1 open tasks.
+[TASKS] Computing warning deltas based on reference build #43
+Archiving artifacts
+[Cobertura] Publishing Cobertura coverage report...
+Publishing Cobertura coverage results...
+Cobertura coverage report found.
+Recording test results
+Triggering a new build of [8mha:////4LZz+VodkRdXtCtalni0p4KyxXlDc3TgODZLQHLG9tweAAAApR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgZp/az8JH2X1IKc/EpVI4OSfCARXJKYDjRMHwCr+V+70AAAAA==[0mDeploy to Staging
+Finished: SUCCESS

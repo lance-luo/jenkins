@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<annotation-array>
+  <task plugin="tasks@4.51">
+    <message>signup() function to add ASAP.</message>
+    <priority>HIGH</priority>
+    <key>-3635565616583244715</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.86">
+        <start>21</start>
+        <end>21</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>21</primaryLineNumber>
+    <fileName>/var/lib/jenkins/workspace/Python_project/project1/authentication.py</fileName>
+    <moduleName></moduleName>
+    <packageName>-</packageName>
+    <category>-</category>
+    <type>URGENT</type>
+    <contextHashCode>1234048395</contextHashCode>
+    <origin>tasks</origin>
+    <pathName>project1</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+    <build>45</build>
+  </task>
+</annotation-array>

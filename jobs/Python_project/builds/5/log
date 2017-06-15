@@ -1,0 +1,46 @@
+Started by user [8mha:////4OeLiUrBa1gcPSCvPVaFLPzHK+aMjqoXb+m61xKbizCXAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/dLi1CKQGcmpejml+QBPcX4wxAAAAA==[0mLance Luo
+Building in workspace /var/lib/jenkins/workspace/python_project1
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/lance-luo/project1.git # timeout=10
+Fetching upstream changes from https://github.com/lance-luo/project1.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/lance-luo/project1.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 904bff2c446244d65e6be6508771fa817cca7851 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 904bff2c446244d65e6be6508771fa817cca7851
+ > git rev-list 1c340e44864471f626b035b5a7556cbda09ce330 # timeout=10
+[python_project1] $ /bin/sh -xe /tmp/jenkins3665398068308729298.sh
++ /usr/bin/nosetests --with-xunit --all-modules --traverse-namespace --with-coverage --cover-package=project1 --cover-inclusive
+...F
+======================================================================
+FAIL: test_logout (tests.authentication_tests.StandAloneTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/mock/mock.py", line 1305, in patched
+    return func(*args, **keywargs)
+  File "/var/lib/jenkins/workspace/python_project1/tests/authentication_tests.py", line 29, in test_logout
+    self.assertTrue(auth.logout())
+AssertionError: None is not true
+-------------------- >> begin captured stdout << ---------------------
+this line will not be covered by test cases.
+this line will not be covered by test cases as well.
+
+--------------------- >> end captured stdout << ----------------------
+
+Name                      Stmts   Miss  Cover   Missing
+-------------------------------------------------------
+project1                      0      0   100%   
+project1.authentication      15      0   100%   
+-------------------------------------------------------
+TOTAL                        15      0   100%   
+----------------------------------------------------------------------
+Ran 4 tests in 0.020s
+
+FAILED (failures=1)
+Build step 'Execute shell' marked build as failure
+Skipping Cobertura coverage report as build was not UNSTABLE or better ...
+Recording test results
+Finished: FAILURE

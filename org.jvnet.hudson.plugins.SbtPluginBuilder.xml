@@ -3,17 +3,9 @@
   <installations>
     <org.jvnet.hudson.plugins.SbtPluginBuilder_-SbtInstallation>
       <name>0.13.15.3-3</name>
-      <home></home>
-      <properties>
-        <hudson.tools.InstallSourceProperty>
-          <installers>
-            <org.jvnet.hudson.plugins.SbtPluginBuilder_-SbtInstaller>
-              <id>1.0.0-M4</id>
-            </org.jvnet.hudson.plugins.SbtPluginBuilder_-SbtInstaller>
-          </installers>
-        </hudson.tools.InstallSourceProperty>
-      </properties>
-      <sbtArguments>/usr/share/sbt/bin/sbt-launch.jar</sbtArguments>
+      <home>/usr/share/sbt/bin/sbt-launch.jar</home>
+      <properties/>
+      <sbtArguments></sbtArguments>
     </org.jvnet.hudson.plugins.SbtPluginBuilder_-SbtInstallation>
   </installations>
 </org.jvnet.hudson.plugins.SbtPluginBuilder_-DescriptorImpl>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file
+  name="src/main/java/org/jacoco/examples/maven/java/HelloWorld.java"
+  last-modified="1495720429000"
+  file="/var/lib/jenkins/workspace/jacoco-maven-examples/org.jacoco.examples.maven.java/src/main/java/org/jacoco/examples/maven/java/HelloWorld.java"
+>
+  <violation
+    line="0"
+    source="JavadocPackageCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing package-info.java file."
+    severity-level="0"
+    popup-message="Missing package-info.java file."
+  />
+  <violation
+    line="3"
+    source="AvoidStarImportCheck"
+    severity="High"
+    type="checkstyle"
+    message="Using the '.*' form of import should be avoided - java.io.*."
+    severity-level="0"
+    popup-message="Using the '.*' form of import should be avoided - java.io.*."
+  />
+  <violation
+    line="5"
+    source="JavadocTypeCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <violation
+    line="6"
+    source="FileTabCharacterCheck"
+    severity="High"
+    type="checkstyle"
+    message="File contains tab characters (this is the first instance)."
+    severity-level="0"
+    popup-message="File contains tab characters (this is the first instance)."
+  />
+  <violation
+    line="6"
+    source="RegexpSinglelineCheck"
+    severity="High"
+    type="checkstyle"
+    message="Line has trailing spaces."
+    severity-level="0"
+    popup-message="Line has trailing spaces."
+  />
+  <violation
+    line="7"
+    source="DesignForExtensionCheck"
+    severity="High"
+    type="checkstyle"
+    message="Method 'getMessage' is not designed for extension - needs to be abstract, final or empty."
+    severity-level="0"
+    popup-message="Method 'getMessage' is not designed for extension - needs to be abstract, final or empty."
+  />
+  <violation
+    line="7"
+    source="JavadocMethodCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <violation
+    line="7"
+    source="FinalParametersCheck"
+    severity="High"
+    type="checkstyle"
+    message="Parameter bigger should be final."
+    severity-level="0"
+    popup-message="Parameter bigger should be final."
+  />
+  <line number='1'>package org.jacoco.examples.maven.java;</line>
+  <line number='2'></line>
+  <line number='3'>import java.io.*;</line>
+  <line number='4'></line>
+  <line number='5'>public class HelloWorld {</line>
+  <line number='6'>	</line>
+  <line number='7'>	public String getMessage(boolean bigger) {</line>
+  <line number='8'>		if (bigger) {</line>
+  <line number='9'>			return "Hello Universe!";</line>
+  <line number='10'>		} else {</line>
+  <line number='11'>			return "Hello World!";</line>
+  <line number='12'>		}</line>
+  <line number='13'>	}</line>
+  <line number='14'></line>
+  <line number='15'>}</line>
+  <type type='checkstyle' number='8' suppressed='0'/>
+</file>

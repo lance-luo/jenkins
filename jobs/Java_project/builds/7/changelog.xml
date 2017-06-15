@@ -1,0 +1,11 @@
+commit 37b1b65c5a12cdb5ac359693303117eb73a3964b
+tree 8ba4571012ebc1b0c26b8e4c73964e77ee74cf4c
+parent 1ee2051073d05d857ad35b9c16f30c817163e747
+author lance-luo <luochangan@gmail.com> 2017-05-25 23:33:56 +1000
+committer GitHub <noreply@github.com> 2017-05-25 23:33:56 +1000
+
+    Update pom.xml
+
+
+
+:100644 100644 a47b5b7e153ae1d4e9081449a801ee4f3bb4ac94 b70154069c79edd379ab83e95a82415a5c89d1c5 M	org.jacoco.examples.maven.java/pom.xml

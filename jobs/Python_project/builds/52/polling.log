@@ -1,0 +1,9 @@
+Started on Jun 6, 2017 12:27:48 PM
+Started by event from 192.30.252.42 ⇒ http://54.252.133.95:8080/github-webhook/ on Tue Jun 06 12:27:48 UTC 2017
+Using strategy: Default
+[poll] Last Built Revision: Revision 2aa51fcad1dcc7ffef88c009ec376fd4e8b50992 (refs/remotes/origin/master)
+ > git ls-remote -h https://github.com/lance-luo/project1.git # timeout=10
+Found 1 remote heads on https://github.com/lance-luo/project1.git
+[poll] Latest remote head revision on refs/heads/master is: 402264ba408923f950e92a67af73502a72ccbcf2
+Done. Took 0.84 sec
+Changes found

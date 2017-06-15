@@ -3,10 +3,10 @@
   <hostConfigurations>
     <jenkins.plugins.publish__over__ssh.BapSshHostConfiguration>
       <name>Prod</name>
-      <hostname>54.206.91.71</hostname>
-      <username>ec2-user</username>
-      <secretPassword>{AQAAABAAAAAQNdP0MRNyOdcwd/mdhVxneZgETMw/YGb47+ZZ42LMYRo=}</secretPassword>
-      <remoteRootDir>/var/www/html/</remoteRootDir>
+      <hostname>54.252.133.95</hostname>
+      <username>centos</username>
+      <secretPassword>{AQAAABAAAAAQ6BDIiT2fVbsNcC9c5+E/ywacmaz5+7mtwwKQYnx6i0M=}</secretPassword>
+      <remoteRootDir>/tmp</remoteRootDir>
       <port>22</port>
       <commonConfig class="jenkins.plugins.publish_over_ssh.BapSshCommonConfiguration">
         <secretPassphrase>{AQAAABAAAAAQ6Fc0yVTpZxxxg6yZdY8bL9D9Hh1SPvm3Vf+ccpaiaJo=}</secretPassphrase>

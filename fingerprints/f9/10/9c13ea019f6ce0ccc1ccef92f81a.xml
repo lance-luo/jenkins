@@ -12,10 +12,6 @@
       <string>Deploy to Staging</string>
       <ranges>12</ranges>
     </entry>
-    <entry>
-      <string>hello_world</string>
-      <ranges>12</ranges>
-    </entry>
   </usages>
   <facets/>
 </fingerprint>
